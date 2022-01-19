@@ -1,0 +1,200 @@
+.product {
+  padding-top: 40px;
+  padding-right: 20px;
+  padding-left: 20px;
+  height: 550px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+@media (min-width: 768px) {
+  .product {
+    padding-right: 0;
+    padding-left: 0;
+  }
+}
+
+.product h1 {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+@media (min-width: 768px) {
+  .product h1 {
+    font-size: 56px;
+  }
+}
+
+.product h2 {
+  font-size: 21px;
+  font-weight: 400;
+}
+
+@media (min-width: 768px) {
+  .product h2 {
+    font-size: 27px;
+  }
+}
+
+.product .links {
+  font-size: 20px;
+  margin-bottom: 50px;
+}
+
+@media (min-width: 768px) {
+  .product .links {
+    font-size: 21px;
+    margin-bottom: 80px;
+  }
+}
+
+.product .links a {
+  text-decoration: none;
+}
+
+.product .links a:hover {
+  text-decoration: underline;
+}
+
+.fa.fa-angle-right {
+  margin-left: 7px;
+}
+
+.fa.fa-play-circle {
+  margin-left: 7px;
+}
+
+.product .links .learn-more {
+  margin-right: 50px;
+}
+
+.product.links.small-link-margin {
+  margin-bottom: 0;
+}
+
+.product.iphone-13-pro {
+  background: url("../../assets/img/hero_iphone_13pro__dhnsegysa42u_small_2x.jpg") center / cover no-repeat, #fbfbfd;
+}
+
+@media (min-width: 768px) {
+  .product.iphone-13-pro {
+    background: url("../../assets/img/hero_iphone_13pro__dhnsegysa42u_large_2x.jpg") center / cover no-repeat, #fbfbfd;
+  }
+}
+
+.product.iphone-13 {
+  background: url("../../assets/img/hero_iphone_13__f194u1rdooeq_small_2x.jpg") center / cover no-repeat, #34283c;
+  padding-top: 250px;
+}
+
+@media (min-width: 768px) {
+  .product.iphone-13 {
+    background: url("../../assets/img/hero_iphone_13__f194u1rdooeq_large_2x.jpg") center / cover no-repeat, #34283c;
+    padding-top: 40px;
+  }
+}
+
+.product.iphone-13 h2 {
+  color: #FDC1EA;
+}
+
+.product.apple-watch {
+  background: url("../../assets/img/hero_watch__f05go333pz2i_small_2x.jpg") center / cover no-repeat, #f5f5f7;
+}
+
+.product.apple-watch span {
+  font-size: 20px;
+  color: #C45B1B;
+}
+
+.logo-img-large {
+  width: 200px;
+  margin-bottom: 7px;
+}
+
+.product.macbook-pro {
+  background: #131218;
+}
+
+.product.dark {
+  color: #fff;
+}
+
+.products-grid {
+  padding-right: 0;
+}
+
+@media (min-width: 768px) {
+  .products-grid {
+    padding-right: 10px;
+  }
+}
+
+.product-small {
+  height: 550px;
+  padding-top: 40px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin: 0 0 10px 0;
+  text-align: center;
+}
+
+@media (min-width: 768px) {
+  .product-small {
+    padding-left: 0;
+    padding-right: 0;
+    margin: 0 0 10px 10px;
+  }
+}
+
+.product-small h3 {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.product-small h4 {
+  font-size: 19px;
+  font-weight: 400;
+}
+
+.product-small h5 {
+  font-size: 15px;
+  font-weight: 400;
+  color: gray;
+}
+
+.logo-img {
+  width: 150px;
+  margin-bottom: 7px;
+}
+
+.product-small .links {
+  font-size: 17px;
+  margin-bottom: 20px;
+}
+
+.product-small .links .learn-more {
+  margin-right: 30px;
+}
+
+.product-small .links a {
+  text-decoration: none;
+}
+
+.product-small .links a:hover {
+  text-decoration: underline;
+}
+
+.product-small.dark {
+  color: #fff;
+}
+
+.product-small.macbook-pro {
+  background: url("../../assets/img/tile_macbookpro__cx0ur0qg9biq_small_2x.jpg") center / cover no-repeat;
+}
+
+.product-small.airpods {
+  padding-top: 420px;
+  background: url("../../assets/img/tile_airpods__fuv6vgn42y2q_small_2x.jpg") center / cover no-repeat;
+}
+
